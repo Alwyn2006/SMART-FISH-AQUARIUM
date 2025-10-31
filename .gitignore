@@ -1,3 +1,5 @@
+# Node/Vite project ignores (merged)
+
 # Logs
 logs
 *.log
@@ -5,6 +7,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -137,3 +140,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Additional Vite/IDE/OS ignores
+.vite/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment variants
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

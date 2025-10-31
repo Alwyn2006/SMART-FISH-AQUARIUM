@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ocean)"/>
+
+  <!-- Waves -->
+  <g fill="rgba(59,130,246,0.08)">
+    <path d="M0 220 C 200 160 400 280 600 220 C 800 160 1000 280 1200 220 C 1400 160 1600 280 1600 220 L1600 900 L0 900 Z"/>
+    <path d="M0 380 C 200 320 400 440 600 380 C 800 320 1000 440 1200 380 C 1400 320 1600 440 1600 380 L1600 900 L0 900 Z"/>
+    <path d="M0 540 C 200 480 400 600 600 540 C 800 480 1000 600 1200 540 C 1400 480 1600 600 1600 540 L1600 900 L0 900 Z"/>
+  </g>
+
+  <!-- Bubbles -->
+  <g fill="rgba(255,255,255,0.08)">
+    <circle cx="140" cy="760" r="6"/>
+    <circle cx="210" cy="720" r="8"/>
+    <circle cx="290" cy="780" r="5"/>
+    <circle cx="400" cy="740" r="7"/>
+    <circle cx="520" cy="700" r="6"/>
+    <circle cx="640" cy="760" r="9"/>
+    <circle cx="760" cy="720" r="6"/>
+    <circle cx="880" cy="760" r="7"/>
+    <circle cx="1000" cy="710" r="5"/>
+    <circle cx="1120" cy="760" r="8"/>
+    <circle cx="1260" cy="720" r="6"/>
+    <circle cx="1380" cy="760" r="7"/>
+  </g>
+
+  <!-- Subtle fish silhouettes -->
+  <g fill="rgba(148,163,184,0.08)">
+    <!-- simple fish: ellipse body + triangle tail -->
+    <g transform="translate(300 500)">
+      <ellipse cx="0" cy="0" rx="28" ry="16"/>
+      <polygon points="28,0 48,-10 48,10"/>
+    </g>
+    <g transform="translate(900 600)">
+      <ellipse cx="0" cy="0" rx="24" ry="14"/>
+      <polygon points="24,0 42,-9 42,9"/>
+    </g>
+    <g transform="translate(1300 520)">
+      <ellipse cx="0" cy="0" rx="20" ry="12"/>
+      <polygon points="20,0 36,-8 36,8"/>
+    </g>
+  </g>
+</svg>
+
